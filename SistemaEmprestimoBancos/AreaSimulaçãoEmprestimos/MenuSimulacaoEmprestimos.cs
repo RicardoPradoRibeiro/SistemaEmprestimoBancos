@@ -4,7 +4,7 @@ using SistemaEmprestimoBancos.Main;
 
 namespace SistemaEmprestimoBancos.AreaEmprestimos
 {
-    public class MenuEmprestimos
+    public class MenuSimulacaoEmprestimos
     {
         public static void MenuDeEmprestimo()
         {
@@ -44,8 +44,8 @@ namespace SistemaEmprestimoBancos.AreaEmprestimos
                         Console.WriteLine("Opção inválida! Digite novamente.");
                         Console.Clear();
                         ProgramMainBancos.ProgramBancos();
-
                         break;
+
                 }
 
             }

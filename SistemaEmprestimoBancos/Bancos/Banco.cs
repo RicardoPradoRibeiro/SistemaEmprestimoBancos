@@ -74,7 +74,7 @@ namespace SistemaEmprestimoBancos.Bancos
                             if (item.Id == banco)
                             {
 
-                                double a = 1 + (item.TjPessoal / 100);
+                                double a = 1 + (item.TjVeicular / 100);
                                 double b = Math.Pow(a, anos);
                                 double c = b * valor;
                                 Console.WriteLine("Valor total : " + c.ToString("C2"));

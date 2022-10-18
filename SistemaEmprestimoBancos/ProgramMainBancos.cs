@@ -30,7 +30,7 @@ namespace SistemaEmprestimoBancos.Main
                         Banco.MostrarBancos();
                         break;
                     case EscolhaMenuPrincipal.SimulacaoEmprestimo:
-                        MenuEmprestimos.MenuDeEmprestimo();
+                        MenuSimulacaoEmprestimos.MenuDeEmprestimo();
                         break;
                     case EscolhaMenuPrincipal.Sair:
                         sair = true;
