@@ -1,5 +1,6 @@
 ﻿using SistemaEmprestimoBancos.Bancos;
 using SistemaEmprestimoBancos.Enums;
+using SistemaEmprestimoBancos.Main;
 
 namespace SistemaEmprestimoBancos.AreaEmprestimos
 {
@@ -40,7 +41,10 @@ namespace SistemaEmprestimoBancos.AreaEmprestimos
                         sair = true;
                         break;
                     default:
-                        sair = true;
+                        Console.WriteLine("Opção inválida! Digite novamente.");
+                        Console.Clear();
+                        ProgramMainBancos.ProgramBancos();
+
                         break;
                 }
 
